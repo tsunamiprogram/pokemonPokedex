@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom"
+import HeaderPokeball from "../components/layouts/HeaderPokeball";
 
 const PokemonDetail = () => {
   const [pokemon, setPokemon] = useState(null)
@@ -24,9 +25,9 @@ const PokemonDetail = () => {
   
 
   return (
-    <main className="py-10 px-2 text-center capitalize">
-
-      <article className="max-w-[500px] mx-auto">
+    <main className=" text-center capitalize">
+      <HeaderPokeball/>
+      <article className="max-w-[500px] py-10 px-2 mx-auto">
         <header>
           <img src={pokemon?.sprites.other["official-artwork"].front_default } alt="" 
           />
