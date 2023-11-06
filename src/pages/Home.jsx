@@ -15,15 +15,15 @@ const Home = () => {
   return (
     <main className="h-screen grid grid-rows-[1fr_auto] ">
         <section className="grid place-content-center text-center">
-            <div>
-                <div>
-                    <img src="/images/pokedexlogo.png" alt="" />
+            <div className="pt-4">
+                <div className=" w-full ">
+                    <img className=" xxs:max-w-md mx-auto 2xs:max-w-xs " src="/images/pokedexlogo.png" alt="" />
                 </div>
-                <h3> Hi Coach!</h3>
-                <p>We welcome you to the pokedex trainers club! </p>
-                <form onSubmit={handleSubmit}>
-                    <input className="shadow-lg" name="trainerName" type="text" placeholder="Your Name"/>
-                    <button>Start!</button>
+                <h1 className=" mx-auto text-5xl text-red-500"> Hello Coach!</h1>
+                <p className="text-2xl">To enter, give us your name </p>
+                <form className="pt-8 pb-4" onSubmit={handleSubmit}>
+                    <input className="shadow-lg pl-4 pr-[200px]" name="trainerName" type="text" placeholder="Your Name"/>
+                    <button className="bg-red-500 border-2 border-red-500 rounded px-8 text-white">Start!</button>
                 </form>
             </div>
 

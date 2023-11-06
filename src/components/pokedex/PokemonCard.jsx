@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
-import { bgByType, borderByType } from "../../constants/pokemon";
+import { bgByType, borderByType, colorTxtByType } from "../../constants/pokemon";
 
 const PokemonCard = ({ pokemonUrl }) => {
   const [pokemon, setPokemon] = useState(null);
@@ -29,7 +29,7 @@ const PokemonCard = ({ pokemonUrl }) => {
             className="max-w-[180px] mx-auto"
           />
         </div>
-        <h3 className="text-xl font-semibold">{pokemon?.name} </h3>
+        <h3 className={`text-xl font-semibold ${colorTxtByType[firstType] } `}>{pokemon?.name} </h3>
         <span className="text-sm font-semibold">{types}</span>
         <h5 className="font-semibold text-slate-400 text-xs mb-2">Type</h5>
         <hr />

@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const trainerNameSlice = createSlice({
-  name: "trainerNAme",
+  name: "trainerName",
   initialState: "",
   reducers: {
     setTrainerName: (state, action) => {
