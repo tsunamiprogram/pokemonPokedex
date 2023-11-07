@@ -47,27 +47,28 @@ const borderByType = {
 };
 const colorTxtByType = {
     "normal": "text-yellow-100",
-    "fighting": "text-orange-700 ",
-    "flying": "text-cyan-100 ",
-    "poison": "text-blue-500 ",
-    "ground": "text-amber-300 ",
-    "rock": "text-zinc-500 ",
-    "bug": "text-green-500 ",
-    "ghost": "text-purple-800 ",
-    "steel": "text-gray-300 ",
+    "fighting": "text-orange-700",
+    "flying": "text-cyan-100",
+    "poison": "text-blue-500",
+    "ground": "text-amber-300",
+    "rock": "text-zinc-500",
+    "bug": "text-green-500",
+    "ghost": "text-purple-800",
+    "steel": "text-gray-300",
     "fire": "text-orange-400",
     "water": "text-sky-400",
-    "grass": "text-green-300 ",
-    "electric": "text-blue-500 ",
-    "psychic": "text-fuchsia-400 ",
-    "ice": "text-cyan-300 ",
-    "dragon": "text-cyan-500 ",
-    "dark": "text-gray-600 ",
-    "fairy": "text-pink-400 ",
-    "unknown": "text-yellow-300 ",
-    "shadow": "text-slate-800 ",
+    "grass": "text-green-300",
+    "electric": "text-blue-500",
+    "psychic": "text-fuchsia-400",
+    "ice": "text-cyan-300",
+    "dragon": "text-cyan-500",
+    "dark": "text-gray-600",
+    "fairy": "text-pink-400",
+    "unknown": "text-yellow-300",
+    "shadow": "text-slate-800",
 
 };
+
 export {
     bgByType, borderByType, colorTxtByType
 };
